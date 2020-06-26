@@ -1,0 +1,51 @@
+body
+{
+	margin=0;
+	padding:0;
+	font-family:sans-serif;
+	background:url("waterfall.jpg");
+	no-repeat center center fixed;
+	background-size:cover;
+	background-repeat:no repeat;
+}
+.abc
+{
+	position:absolute; /*An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed)*/
+	top: 50% ;
+	left: 50%;
+	transform:translate(-50%,-50%); /*The translate() CSS function repositions an element in the horizontal and/or vertical directions. Its result is a <transform-function> data type*/
+	width=500%;
+	padding:2rem; /*the rem unit means "The root element's font-size"*/
+	background: rgba(0,0,0,.8);
+	box-sizing:border-box; /*The box-sizing property allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box; on an element, padding and border are included in the width and height: Both divs are the same size now!*/
+	box-shadow:0 16px 30px rgba(0,0,0,.5);
+	box-radius:12px;
+	text-align:center;
+}
+.abc h2
+{
+	color:#fff;
+	font-family:cursive;
+	font-size=2rem;
+	font-weight:100%;
+}
+input
+{
+	width:70%;
+	padding:0.8rem;
+	border-radius:20px;
+	border:none;
+}
+button
+{
+	width:100px;
+	padding:0.6rem;
+	background-color:#0072ff;
+	border=none;
+	border-radius:5px;
+	color:#fff;
+}
+
+/*THE END*/
+
+		

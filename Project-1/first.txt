@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<!--meta is a machine parsable language which will not get displayed in your webpage, it converts typed characters into machine readable codes-->	
+<!--content in meta defines the values for the meta element. The content attribute of the meta element contains its values. This is used with the name attribute to specify metadata about the page.-->
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title> Sign Up Form </title>
+<link rel="Stylesheet" href="style.css">
+</head>
+<body>
+<!--The <div> tag defines a division or a section in an HTML-->
+	<div class="container">
+		<h2>Sign Up</h2>
+<!--HTML - Forms - HTML Forms are required, when you want to collect some data from the site visitor.-->
+		<form action="">
+<!--The placeholder attribute specifies a short hint that describes the expected value of an input field-->
+
+		<input type="text" placeholder="First Name"><br><br>
+		<input type="text"placeholder="Last Name"><br><br>>
+		<input type="number" placeholder="Phone Number"><br><br>
+		<input type="email" placeholder="Email"><br><br>
+		<input type="password" placeholder="Password"><br><br>
+		<input type="password" placeholder="Confirm Password"><br><br>
+		<button>SIGN UP</button>
+		</form>
+	</div>
+</body>
+</html>
